@@ -4,41 +4,66 @@
  * MIT License | http://yusugomori.com/license/mit
  */
 
-.A {
-  position: relative;
-  left: 30px;
-  width: 60px;
-  height: 91px;
-  border-bottom: solid 14px #000000;
+.A{
+position:relative;
+left:30px;
+width:60px;
+height:91px;
+border-bottom:solid 14px#000000;
 }
-.A:before {
-  -webkit-transform: skew(-19deg, 0);
-  -moz-transform: skew(-19deg, 0);
-  -ms-transform: skew(-19deg, 0);
-  -o-transform: skew(-19deg, 0);
-  transform: skew(-19deg, 0);
-  position: absolute;
-  content: '';
-  top: 12.5px;
-  left: 0;
-  width: 16px;
-  height: 125px;
-  background-color: #000000;
+.A:before{
+transform:skew(-19deg,0);
+position:absolute;
+content:'';
+top:12.5px;
+left:0;
+width:16px;
+height:125px;
+background-color:#000000;
 }
-.A:after {
-  -webkit-transform: skew(19deg, 0);
-  -moz-transform: skew(19deg, 0);
-  -ms-transform: skew(19deg, 0);
-  -o-transform: skew(19deg, 0);
-  transform: skew(19deg, 0);
-  position: absolute;
-  content: '';
-  top: 12.5px;
-  left: 45px;
-  width: 16px;
-  height: 125px;
-  background-color: #000000;
+.A:after{
+transform:skew(19deg,0);
+position:absolute;
+content:'';
+top:12.5px;
+left:45px;
+width:16px;
+height:125px;
+background-color:#000000;
 }
+
+.my-icon {
+    position: relative;
+}
+.my-icon > i {
+     position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.4em solid transparent;
+    border-left: 1.4em solid #000000;
+    border-top: 1.4em solid #000000;
+    left: -93.5em;
+    top: 8.8em;
+}
+
+.a_fill {
+    position: relative;
+}
+.a_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1em solid transparent;
+    margin-top: -2.5em;
+    border-bottom: 2.5em solid #000000;
+    left: -92em;
+    top: 6em;
+}
+
 .B {
   position: relative;
   top: 12.5px;
@@ -128,6 +153,23 @@
   -o-border-radius: 0 300% 300% 0 / 0 180% 180% 0;
   border-radius: 0 300% 300% 0 / 0 180% 180% 0;
 }
+
+.d_fill {
+    position: relative;
+}
+.d_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5em solid transparent;
+    border-left: 0.5em solid #000000;
+    border-top: 4.5em solid #000000;
+    left: -71.9em;
+    top: 4.7em;
+}
+
 .E {
   position: relative;
   top: 12.5px;
@@ -147,6 +189,39 @@
   height: 15px;
   background-color: #000000;
 }
+
+.e_fill {
+    position: relative;
+}
+.e_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.65em solid transparent;
+    border-left: 1.65em solid #000000;
+    border-bottom: 1.65em solid #000000;
+    left: -18.9em;
+    top: 3.8em;
+}
+
+.e_fill2 {
+    position: relative;
+}
+.e_fill2 > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.65em solid transparent;
+    border-left: 1.65em solid #000000;
+    border-top: 1.65em solid #000000;
+    left: -18.9em;
+    top: 8.05em;
+}
+
 .F {
   position: relative;
   top: 12.5px;
@@ -169,7 +244,7 @@
 .G {
   position: relative;
   top: 12.5px;
-  left: 10px;
+  left: 40px;
   width: 84px;
   height: 95px;
   border-width: 15px 12px 15px 16px;
@@ -206,6 +281,23 @@
   border-color: #000000;
   border-style: solid;
 }
+
+.g_corner {
+    position: relative;
+}
+.g_corner > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1em solid transparent;
+    border-right: 1em solid #000000;
+    border-top: 1em solid #000000;
+    left: -60.8em;
+    top: 8.4em;
+}
+
 .H {
   position: relative;
   top: 12.5px;
@@ -225,6 +317,39 @@
   height: 14px;
   background-color: #000000;
 }
+
+.h_fill {
+    position: relative;
+}
+.h_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 3.9em solid transparent;
+    border-left: 1.5em solid #000000;
+    border-right: 2.4em solid #000000;
+    left: -105.2em;
+    top: 3.8em;
+}
+
+.h_fill {
+    position: relative;
+}
+.h_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 3.9em solid transparent;
+    border-left: 4.5em solid #000000;
+    left: -105.2em;
+    top: 3.8em;
+}
+
+
 .I {
   z-index: 1;  
   position: relative;
@@ -319,6 +444,23 @@
   border-color: #000000;
   border-style: solid;
 }
+
+.L_corner {
+    position: relative;
+}
+.L_corner > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 2.5em solid transparent;
+    border-left: 1.5em solid #000000;
+    border-bottom: 4.5em solid #000000;
+    left: -52em;
+    top: 3.8em;
+}
+
 .M {
   position: relative;
   top: 12.5px;
@@ -381,10 +523,58 @@
   height: 125px;
   background-color: #000000;
 }
+
+.n_corner {
+    position: relative;
+}
+.n_corner > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5em solid #000000;
+    border-bottom: 1em solid transparent;
+    left: -83.7em;
+    top: 9.1em;
+}
+
+.n_corner2 {
+    position: relative;
+}
+.n_corner2 > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 0.7em solid transparent;
+    border-left: 0.7em solid #000000;
+    border-bottom: 0.7em solid #000000;
+    left: -80.7em;
+    top: 10.25em;
+}
+
+.n_fill {
+    position: relative;
+}
+.n_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.7em solid transparent;
+    border-left: 0.8em solid #000000;
+    border-bottom: 3.8em solid #000000;
+    left: -83.7em;
+    top: 4em;
+}
+
 .O {
   position: relative;
   top: 12.5px;
-  left: 10px;
+  left: 0px;
   width: 70px;
   height: 97px;
   border-width: 14px 16px 14px 16px;
@@ -396,6 +586,38 @@
   -o-border-radius: 55% / 52%;
   border-radius: 55% / 52%;
 }
+
+.o_fill {
+    position: relative;
+}
+.o_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5em solid transparent;
+    border-left: 0.5em solid #000000;
+    border-top: 4.5em solid #000000;
+    left: -40.6em;
+    top: 4.7em;
+}
+
+.o_corner2 {
+    position: relative;
+}
+.o_corner2 > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 2.5em;
+    line-height: 0;
+    border: 0.5em solid #000000;
+    border-bottom: 2.4em solid #000000;
+    left: -41.6em;
+    top: 5em;
+}
+
 .P {
   position: relative;
   top: 12.5px;
@@ -557,6 +779,41 @@
   -o-border-radius: 240% 0 0 110% / 140% 0 0 100%;
   border-radius: 240% 0 0 110% / 140% 0 0 100%;
 }
+
+.s_fill {
+    position: relative;
+}
+.s_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.4em solid #000000;
+    border-left: none;
+    border-bottom-right-radius: 3em;
+    border-top-right-radius: 3em;
+    left: -5.9em;
+    top: 8.2em;
+}
+
+.s_fill2 {
+    position: relative;
+}
+.s_fill2 > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.4em solid #000000;
+    border-right: none;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
+    left: -7.5em;
+    top: 4.5em;
+}
+
 .T {
   position: relative;
   top: 12.5px;
@@ -632,6 +889,55 @@
   height: 125px;
   border-left: solid 16px #000000;
 }
+
+.v_corner {
+    position: relative;
+}
+.v_corner > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5em solid transparent;
+    border-left: 2.5em solid #000000;
+    border-bottom: 0.5em solid #000000;
+    left: -28.6em;
+    top: 3.8em;
+}
+
+.v_corner2 {
+    position: relative;
+}
+.v_corner2 > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.5em solid transparent;
+    border-right: 2.5em solid #000000;
+    border-bottom: 0.5em solid #000000;
+    left: -28.4em;
+    top: 3.8em;
+}
+
+.v_fill {
+    position: relative;
+}
+.v_fill > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 1.7em solid transparent;
+    border-top: 5em solid #000000;
+    left: -28.2em;
+    top: 5.5em;
+}
+
+
 .W {
   position: relative;
   top: 12.5px;
